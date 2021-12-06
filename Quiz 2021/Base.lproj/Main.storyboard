@@ -250,19 +250,50 @@
             </objects>
             <point key="canvasLocation" x="1710.144927536232" y="87.723214285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Results View Controller-->
         <scene sceneID="5Fa-oO-hHn">
             <objects>
-                <viewController id="lT6-u5-Mpd" sceneMemberID="viewController">
+                <viewController id="lT6-u5-Mpd" customClass="ResultsViewController" customModule="Quiz_2021" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GpC-Fu-L2e">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="3Rp-2l-YZq">
+                                <rect key="frame" x="20" y="362.5" width="374" height="117"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3C9-JL-Vke">
+                                        <rect key="frame" x="128.5" y="0.0" width="117" height="60"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRN-Lr-iXU">
+                                        <rect key="frame" x="163" y="93" width="48" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="M3A-mW-b9Q"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="M3A-mW-b9Q" firstAttribute="trailing" secondItem="3Rp-2l-YZq" secondAttribute="trailing" constant="20" id="21A-55-WYN"/>
+                            <constraint firstItem="3Rp-2l-YZq" firstAttribute="leading" secondItem="M3A-mW-b9Q" secondAttribute="leading" constant="20" id="Rgv-bF-eaN"/>
+                            <constraint firstItem="3Rp-2l-YZq" firstAttribute="centerY" secondItem="GpC-Fu-L2e" secondAttribute="centerY" id="Yys-rL-55O"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="xi0-h1-i1T"/>
+                    <navigationItem key="navigationItem" id="xi0-h1-i1T">
+                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="Kah-uw-her">
+                            <connections>
+                                <segue destination="zxS-js-ksx" kind="unwind" unwindAction="unwind:" id="PYr-Y2-Xi9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CSQ-Z4-4so" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="zxS-js-ksx" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2484.057971014493" y="87.723214285714278"/>
         </scene>

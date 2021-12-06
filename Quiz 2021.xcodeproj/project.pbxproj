@@ -14,6 +14,7 @@
 		9C69A565275DFAD2009096CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C69A564275DFAD2009096CF /* Assets.xcassets */; };
 		9C69A568275DFAD2009096CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C69A566275DFAD2009096CF /* LaunchScreen.storyboard */; };
 		9C69A570275E047F009096CF /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A56F275E047F009096CF /* QuestionViewController.swift */; };
+		9C69A573275E119E009096CF /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A572275E119E009096CF /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9C69A567275DFAD2009096CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C69A569275DFAD2009096CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C69A56F275E047F009096CF /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		9C69A572275E119E009096CF /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				9C69A55F275DFAD0009096CF /* WelcomeViewController.swift */,
 				9C69A56F275E047F009096CF /* QuestionViewController.swift */,
+				9C69A572275E119E009096CF /* ResultsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				9C69A560275DFAD0009096CF /* WelcomeViewController.swift in Sources */,
 				9C69A55C275DFAD0009096CF /* AppDelegate.swift in Sources */,
 				9C69A570275E047F009096CF /* QuestionViewController.swift in Sources */,
+				9C69A573275E119E009096CF /* ResultsViewController.swift in Sources */,
 				9C69A55E275DFAD0009096CF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
