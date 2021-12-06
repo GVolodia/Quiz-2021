@@ -15,6 +15,10 @@
 		9C69A568275DFAD2009096CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C69A566275DFAD2009096CF /* LaunchScreen.storyboard */; };
 		9C69A570275E047F009096CF /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A56F275E047F009096CF /* QuestionViewController.swift */; };
 		9C69A573275E119E009096CF /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A572275E119E009096CF /* ResultsViewController.swift */; };
+		9C69A578275E208F009096CF /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A577275E208F009096CF /* Question.swift */; };
+		9C69A57A275E2107009096CF /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A579275E2107009096CF /* ResponseType.swift */; };
+		9C69A57C275E2173009096CF /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A57B275E2173009096CF /* Answer.swift */; };
+		9C69A57E275E21CF009096CF /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A57D275E21CF009096CF /* AnimalType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		9C69A569275DFAD2009096CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C69A56F275E047F009096CF /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		9C69A572275E119E009096CF /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		9C69A577275E208F009096CF /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		9C69A579275E2107009096CF /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
+		9C69A57B275E2173009096CF /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		9C69A57D275E21CF009096CF /* AnimalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +68,9 @@
 		9C69A55A275DFAD0009096CF /* Quiz 2021 */ = {
 			isa = PBXGroup;
 			children = (
-				9C69A55B275DFAD0009096CF /* AppDelegate.swift */,
-				9C69A564275DFAD2009096CF /* Assets.xcassets */,
-				9C69A569275DFAD2009096CF /* Info.plist */,
-				9C69A566275DFAD2009096CF /* LaunchScreen.storyboard */,
-				9C69A561275DFAD0009096CF /* Main.storyboard */,
-				9C69A55D275DFAD0009096CF /* SceneDelegate.swift */,
+				9C69A576275E1F38009096CF /* App */,
+				9C69A574275E1EF1009096CF /* Models */,
+				9C69A575275E1F09009096CF /* View */,
 				9C69A571275E049B009096CF /* View Controllers */,
 			);
 			path = "Quiz 2021";
@@ -79,6 +84,37 @@
 				9C69A572275E119E009096CF /* ResultsViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		9C69A574275E1EF1009096CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C69A577275E208F009096CF /* Question.swift */,
+				9C69A579275E2107009096CF /* ResponseType.swift */,
+				9C69A57B275E2173009096CF /* Answer.swift */,
+				9C69A57D275E21CF009096CF /* AnimalType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C69A575275E1F09009096CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C69A566275DFAD2009096CF /* LaunchScreen.storyboard */,
+				9C69A561275DFAD0009096CF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C69A576275E1F38009096CF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9C69A55B275DFAD0009096CF /* AppDelegate.swift */,
+				9C69A564275DFAD2009096CF /* Assets.xcassets */,
+				9C69A569275DFAD2009096CF /* Info.plist */,
+				9C69A55D275DFAD0009096CF /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +191,12 @@
 				9C69A560275DFAD0009096CF /* WelcomeViewController.swift in Sources */,
 				9C69A55C275DFAD0009096CF /* AppDelegate.swift in Sources */,
 				9C69A570275E047F009096CF /* QuestionViewController.swift in Sources */,
+				9C69A578275E208F009096CF /* Question.swift in Sources */,
 				9C69A573275E119E009096CF /* ResultsViewController.swift in Sources */,
 				9C69A55E275DFAD0009096CF /* SceneDelegate.swift in Sources */,
+				9C69A57A275E2107009096CF /* ResponseType.swift in Sources */,
+				9C69A57E275E21CF009096CF /* AnimalType.swift in Sources */,
+				9C69A57C275E2173009096CF /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +347,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 273LY85RU3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Quiz 2021/Info.plist";
+				INFOPLIST_FILE = "Quiz 2021/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -335,7 +375,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 273LY85RU3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Quiz 2021/Info.plist";
+				INFOPLIST_FILE = "Quiz 2021/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
