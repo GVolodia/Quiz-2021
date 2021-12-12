@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C0AB8E52761F7EB0023A3F0 /* screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0AB8E02761F7EA0023A3F0 /* screenshot01.png */; };
-		9C0AB8E62761F7EB0023A3F0 /* screenshot04.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0AB8E12761F7EA0023A3F0 /* screenshot04.png */; };
-		9C0AB8E72761F7EB0023A3F0 /* screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0AB8E22761F7EB0023A3F0 /* screenshot02.png */; };
-		9C0AB8E82761F7EB0023A3F0 /* screenshot05.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0AB8E32761F7EB0023A3F0 /* screenshot05.png */; };
-		9C0AB8E92761F7EB0023A3F0 /* screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0AB8E42761F7EB0023A3F0 /* screenshot03.png */; };
+		9C06F2882766060D0080DEF9 /* screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C06F2872766060D0080DEF9 /* screenshot01.png */; };
+		9C06F28A276606170080DEF9 /* screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C06F289276606170080DEF9 /* screenshot02.png */; };
+		9C06F28C276606200080DEF9 /* screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C06F28B276606200080DEF9 /* screenshot03.png */; };
+		9C06F28E276606260080DEF9 /* screenshot04.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C06F28D276606260080DEF9 /* screenshot04.png */; };
+		9C06F290276606310080DEF9 /* screenshot05.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C06F28F276606310080DEF9 /* screenshot05.png */; };
+		9C06F292276606370080DEF9 /* screenshot06.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C06F291276606370080DEF9 /* screenshot06.png */; };
 		9C0AB8EB2761F9D60023A3F0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9C0AB8EA2761F9D60023A3F0 /* README.md */; };
 		9C69A55C275DFAD0009096CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A55B275DFAD0009096CF /* AppDelegate.swift */; };
 		9C69A55E275DFAD0009096CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A55D275DFAD0009096CF /* SceneDelegate.swift */; };
@@ -39,11 +40,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9C0AB8E02761F7EA0023A3F0 /* screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot01.png; sourceTree = "<group>"; };
-		9C0AB8E12761F7EA0023A3F0 /* screenshot04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot04.png; sourceTree = "<group>"; };
-		9C0AB8E22761F7EB0023A3F0 /* screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot02.png; sourceTree = "<group>"; };
-		9C0AB8E32761F7EB0023A3F0 /* screenshot05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot05.png; sourceTree = "<group>"; };
-		9C0AB8E42761F7EB0023A3F0 /* screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot03.png; sourceTree = "<group>"; };
+		9C06F2872766060D0080DEF9 /* screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot01.png; sourceTree = "<group>"; };
+		9C06F289276606170080DEF9 /* screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot02.png; sourceTree = "<group>"; };
+		9C06F28B276606200080DEF9 /* screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot03.png; sourceTree = "<group>"; };
+		9C06F28D276606260080DEF9 /* screenshot04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot04.png; sourceTree = "<group>"; };
+		9C06F28F276606310080DEF9 /* screenshot05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot05.png; sourceTree = "<group>"; };
+		9C06F291276606370080DEF9 /* screenshot06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot06.png; sourceTree = "<group>"; };
 		9C0AB8EA2761F9D60023A3F0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9C69A558275DFAD0009096CF /* Quiz 2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz 2021.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C69A55B275DFAD0009096CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,11 +88,12 @@
 		9C0AB8DF2761F7CF0023A3F0 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				9C0AB8E02761F7EA0023A3F0 /* screenshot01.png */,
-				9C0AB8E22761F7EB0023A3F0 /* screenshot02.png */,
-				9C0AB8E42761F7EB0023A3F0 /* screenshot03.png */,
-				9C0AB8E12761F7EA0023A3F0 /* screenshot04.png */,
-				9C0AB8E32761F7EB0023A3F0 /* screenshot05.png */,
+				9C06F2872766060D0080DEF9 /* screenshot01.png */,
+				9C06F289276606170080DEF9 /* screenshot02.png */,
+				9C06F28B276606200080DEF9 /* screenshot03.png */,
+				9C06F28D276606260080DEF9 /* screenshot04.png */,
+				9C06F28F276606310080DEF9 /* screenshot05.png */,
+				9C06F291276606370080DEF9 /* screenshot06.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -243,22 +246,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CD102C62764F16400BD0AD7 /* природа.jpeg in Resources */,
-				9C0AB8E82761F7EB0023A3F0 /* screenshot05.png in Resources */,
+				9C06F292276606370080DEF9 /* screenshot06.png in Resources */,
 				9CD102C02764D2C500BD0AD7 /* еда.jpeg in Resources */,
 				9C69A568275DFAD2009096CF /* LaunchScreen.storyboard in Resources */,
 				9CD102C42764DA6C00BD0AD7 /* море.jpeg in Resources */,
 				9C69A565275DFAD2009096CF /* Assets.xcassets in Resources */,
-				9C0AB8E92761F7EB0023A3F0 /* screenshot03.png in Resources */,
-				9C0AB8E72761F7EB0023A3F0 /* screenshot02.png in Resources */,
+				9C06F28A276606170080DEF9 /* screenshot02.png in Resources */,
+				9C06F28E276606260080DEF9 /* screenshot04.png in Resources */,
 				9CD102D62765F06200BD0AD7 /* tahiti1.jpeg in Resources */,
-				9C0AB8E62761F7EB0023A3F0 /* screenshot04.png in Resources */,
 				9CD102CC2765EFA200BD0AD7 /* australia.jpeg in Resources */,
 				9CD102C82765D93F00BD0AD7 /* экск.jpeg in Resources */,
+				9C06F2882766060D0080DEF9 /* screenshot01.png in Resources */,
 				9CD102CE2765EFD200BD0AD7 /* greenland.jpeg in Resources */,
+				9C06F28C276606200080DEF9 /* screenshot03.png in Resources */,
+				9C06F290276606310080DEF9 /* screenshot05.png in Resources */,
 				9CD102D42765F05700BD0AD7 /* club.jpeg in Resources */,
 				9C0AB8EB2761F9D60023A3F0 /* README.md in Resources */,
 				9CD102CA2765EF8F00BD0AD7 /* tahiti.jpeg in Resources */,
-				9C0AB8E52761F7EB0023A3F0 /* screenshot01.png in Resources */,
 				9C69A563275DFAD0009096CF /* Main.storyboard in Resources */,
 				9CD102BD2764C70E00BD0AD7 /* заставка.jpeg in Resources */,
 				9CD102D02765F00200BD0AD7 /* karelia.jpeg in Resources */,
