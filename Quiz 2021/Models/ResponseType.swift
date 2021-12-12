@@ -6,5 +6,5 @@
 //
 
 enum ResponseType {
-    case single, multiple, range
+    case single, multiple, range, segment
 }

@@ -12,6 +12,7 @@
 		9C0AB8E72761F7EB0023A3F0 /* screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0AB8E22761F7EB0023A3F0 /* screenshot02.png */; };
 		9C0AB8E82761F7EB0023A3F0 /* screenshot05.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0AB8E32761F7EB0023A3F0 /* screenshot05.png */; };
 		9C0AB8E92761F7EB0023A3F0 /* screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C0AB8E42761F7EB0023A3F0 /* screenshot03.png */; };
+		9C0AB8EB2761F9D60023A3F0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9C0AB8EA2761F9D60023A3F0 /* README.md */; };
 		9C69A55C275DFAD0009096CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A55B275DFAD0009096CF /* AppDelegate.swift */; };
 		9C69A55E275DFAD0009096CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A55D275DFAD0009096CF /* SceneDelegate.swift */; };
 		9C69A560275DFAD0009096CF /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A55F275DFAD0009096CF /* WelcomeViewController.swift */; };
@@ -23,7 +24,18 @@
 		9C69A578275E208F009096CF /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A577275E208F009096CF /* Question.swift */; };
 		9C69A57A275E2107009096CF /* ResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A579275E2107009096CF /* ResponseType.swift */; };
 		9C69A57C275E2173009096CF /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A57B275E2173009096CF /* Answer.swift */; };
-		9C69A57E275E21CF009096CF /* AnimalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A57D275E21CF009096CF /* AnimalType.swift */; };
+		9C69A57E275E21CF009096CF /* PlaceToGo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C69A57D275E21CF009096CF /* PlaceToGo.swift */; };
+		9CD102BD2764C70E00BD0AD7 /* заставка.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9CD102BC2764C70E00BD0AD7 /* заставка.jpeg */; };
+		9CD102C02764D2C500BD0AD7 /* еда.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9CD102BF2764D2C500BD0AD7 /* еда.jpeg */; };
+		9CD102C42764DA6C00BD0AD7 /* море.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9CD102C32764DA6C00BD0AD7 /* море.jpeg */; };
+		9CD102C62764F16400BD0AD7 /* природа.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9CD102C52764F16400BD0AD7 /* природа.jpeg */; };
+		9CD102C82765D93F00BD0AD7 /* экск.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9CD102C72765D93F00BD0AD7 /* экск.jpeg */; };
+		9CD102CA2765EF8F00BD0AD7 /* tahiti.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9CD102C92765EF8F00BD0AD7 /* tahiti.jpeg */; };
+		9CD102CC2765EFA200BD0AD7 /* australia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9CD102CB2765EFA200BD0AD7 /* australia.jpeg */; };
+		9CD102CE2765EFD200BD0AD7 /* greenland.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9CD102CD2765EFD200BD0AD7 /* greenland.jpeg */; };
+		9CD102D02765F00200BD0AD7 /* karelia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9CD102CF2765F00200BD0AD7 /* karelia.jpeg */; };
+		9CD102D42765F05700BD0AD7 /* club.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9CD102D32765F05700BD0AD7 /* club.jpeg */; };
+		9CD102D62765F06200BD0AD7 /* tahiti1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9CD102D52765F06200BD0AD7 /* tahiti1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +44,7 @@
 		9C0AB8E22761F7EB0023A3F0 /* screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot02.png; sourceTree = "<group>"; };
 		9C0AB8E32761F7EB0023A3F0 /* screenshot05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot05.png; sourceTree = "<group>"; };
 		9C0AB8E42761F7EB0023A3F0 /* screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot03.png; sourceTree = "<group>"; };
+		9C0AB8EA2761F9D60023A3F0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9C69A558275DFAD0009096CF /* Quiz 2021.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiz 2021.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C69A55B275DFAD0009096CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C69A55D275DFAD0009096CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +58,18 @@
 		9C69A577275E208F009096CF /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		9C69A579275E2107009096CF /* ResponseType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseType.swift; sourceTree = "<group>"; };
 		9C69A57B275E2173009096CF /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
-		9C69A57D275E21CF009096CF /* AnimalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalType.swift; sourceTree = "<group>"; };
+		9C69A57D275E21CF009096CF /* PlaceToGo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceToGo.swift; sourceTree = "<group>"; };
+		9CD102BC2764C70E00BD0AD7 /* заставка.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "заставка.jpeg"; sourceTree = "<group>"; };
+		9CD102BF2764D2C500BD0AD7 /* еда.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "еда.jpeg"; sourceTree = "<group>"; };
+		9CD102C32764DA6C00BD0AD7 /* море.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "море.jpeg"; sourceTree = "<group>"; };
+		9CD102C52764F16400BD0AD7 /* природа.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "природа.jpeg"; sourceTree = "<group>"; };
+		9CD102C72765D93F00BD0AD7 /* экск.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "экск.jpeg"; sourceTree = "<group>"; };
+		9CD102C92765EF8F00BD0AD7 /* tahiti.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tahiti.jpeg; sourceTree = "<group>"; };
+		9CD102CB2765EFA200BD0AD7 /* australia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = australia.jpeg; sourceTree = "<group>"; };
+		9CD102CD2765EFD200BD0AD7 /* greenland.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = greenland.jpeg; sourceTree = "<group>"; };
+		9CD102CF2765F00200BD0AD7 /* karelia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = karelia.jpeg; sourceTree = "<group>"; };
+		9CD102D32765F05700BD0AD7 /* club.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = club.jpeg; sourceTree = "<group>"; };
+		9CD102D52765F06200BD0AD7 /* tahiti1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tahiti1.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +98,7 @@
 		9C69A54F275DFAD0009096CF = {
 			isa = PBXGroup;
 			children = (
+				9C0AB8EA2761F9D60023A3F0 /* README.md */,
 				9C69A55A275DFAD0009096CF /* Quiz 2021 */,
 				9C69A559275DFAD0009096CF /* Products */,
 			);
@@ -90,6 +115,7 @@
 		9C69A55A275DFAD0009096CF /* Quiz 2021 */ = {
 			isa = PBXGroup;
 			children = (
+				9CD102BE2764CE1B00BD0AD7 /* Pictures */,
 				9C0AB8DF2761F7CF0023A3F0 /* Screenshots */,
 				9C69A576275E1F38009096CF /* App */,
 				9C69A574275E1EF1009096CF /* Models */,
@@ -115,7 +141,7 @@
 				9C69A577275E208F009096CF /* Question.swift */,
 				9C69A579275E2107009096CF /* ResponseType.swift */,
 				9C69A57B275E2173009096CF /* Answer.swift */,
-				9C69A57D275E21CF009096CF /* AnimalType.swift */,
+				9C69A57D275E21CF009096CF /* PlaceToGo.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -138,6 +164,24 @@
 				9C69A55D275DFAD0009096CF /* SceneDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		9CD102BE2764CE1B00BD0AD7 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				9CD102C52764F16400BD0AD7 /* природа.jpeg */,
+				9CD102C32764DA6C00BD0AD7 /* море.jpeg */,
+				9CD102BF2764D2C500BD0AD7 /* еда.jpeg */,
+				9CD102C72765D93F00BD0AD7 /* экск.jpeg */,
+				9CD102C92765EF8F00BD0AD7 /* tahiti.jpeg */,
+				9CD102CD2765EFD200BD0AD7 /* greenland.jpeg */,
+				9CD102D52765F06200BD0AD7 /* tahiti1.jpeg */,
+				9CD102CF2765F00200BD0AD7 /* karelia.jpeg */,
+				9CD102BC2764C70E00BD0AD7 /* заставка.jpeg */,
+				9CD102D32765F05700BD0AD7 /* club.jpeg */,
+				9CD102CB2765EFA200BD0AD7 /* australia.jpeg */,
+			);
+			path = Pictures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,14 +242,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD102C62764F16400BD0AD7 /* природа.jpeg in Resources */,
 				9C0AB8E82761F7EB0023A3F0 /* screenshot05.png in Resources */,
+				9CD102C02764D2C500BD0AD7 /* еда.jpeg in Resources */,
 				9C69A568275DFAD2009096CF /* LaunchScreen.storyboard in Resources */,
+				9CD102C42764DA6C00BD0AD7 /* море.jpeg in Resources */,
 				9C69A565275DFAD2009096CF /* Assets.xcassets in Resources */,
 				9C0AB8E92761F7EB0023A3F0 /* screenshot03.png in Resources */,
 				9C0AB8E72761F7EB0023A3F0 /* screenshot02.png in Resources */,
+				9CD102D62765F06200BD0AD7 /* tahiti1.jpeg in Resources */,
 				9C0AB8E62761F7EB0023A3F0 /* screenshot04.png in Resources */,
+				9CD102CC2765EFA200BD0AD7 /* australia.jpeg in Resources */,
+				9CD102C82765D93F00BD0AD7 /* экск.jpeg in Resources */,
+				9CD102CE2765EFD200BD0AD7 /* greenland.jpeg in Resources */,
+				9CD102D42765F05700BD0AD7 /* club.jpeg in Resources */,
+				9C0AB8EB2761F9D60023A3F0 /* README.md in Resources */,
+				9CD102CA2765EF8F00BD0AD7 /* tahiti.jpeg in Resources */,
 				9C0AB8E52761F7EB0023A3F0 /* screenshot01.png in Resources */,
 				9C69A563275DFAD0009096CF /* Main.storyboard in Resources */,
+				9CD102BD2764C70E00BD0AD7 /* заставка.jpeg in Resources */,
+				9CD102D02765F00200BD0AD7 /* karelia.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,7 +279,7 @@
 				9C69A573275E119E009096CF /* ResultsViewController.swift in Sources */,
 				9C69A55E275DFAD0009096CF /* SceneDelegate.swift in Sources */,
 				9C69A57A275E2107009096CF /* ResponseType.swift in Sources */,
-				9C69A57E275E21CF009096CF /* AnimalType.swift in Sources */,
+				9C69A57E275E21CF009096CF /* PlaceToGo.swift in Sources */,
 				9C69A57C275E2173009096CF /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
