@@ -1,6 +1,6 @@
 # Quiz-2021
 
-Funny personality quiz
+Funny quiz
 
 ## Screenshots
 
@@ -13,3 +13,5 @@ Funny personality quiz
 ![screenshot4](https://github.com/GVolodia/Quiz-2021/blob/main/Quiz%202021/Screenshots/screenshot04.png?raw=true)
 
 ![screenshot5](https://github.com/GVolodia/Quiz-2021/blob/main/Quiz%202021/Screenshots/screenshot05.png?raw=true)
+
+![screenshot6](https://github.com/GVolodia/Quiz-2021/blob/main/Quiz%202021/Screenshots/screenshot06.png?raw=true)
