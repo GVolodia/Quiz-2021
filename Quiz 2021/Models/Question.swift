@@ -33,11 +33,11 @@ struct Question {
             Answer(text: "Без них отдых - не отдых", type: .city),
         ]),
         Question(text: "Какой климат вам по душе?", type: .segment, answers: [
+            Answer(text: "Ветер", type: .australia),
+            Answer(text: "Дождь", type: .karelia),
+            Answer(text: "Облачно", type: .city),
             Answer(text: "Солнце", type: .tahiti),
             Answer(text: "Снег", type: .greenland),
-            Answer(text: "Дождь", type: .karelia),
-            Answer(text: "Ветер", type: .australia),
-            Answer(text: "Облачно", type: .city),
         ]),
     ]
 }
